@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro de Atleta</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Cadastro de Atleta</h1>
+        <form id="cadastroAtleta">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" maxlength="200" required>
+            <label>Sexo:</label>
+        <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="sexo" value="Masculino" required>
+        <label for="feminino">Feminino</label>
+            <input type="radio" id="feminino" name="sexo" value="Feminino" required>
+
+            <label for="estado">Estado de Nascimento:</label>
+            <select id="estado" name="estado" required>
+                <option value="">Selecione...</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" maxlength="100" required><br>
+
+        <label>
+            <input type="checkbox" id="copiaEmail" name="copiaEmail">
+          Enviar cópia do formulário respondido para meu email</label><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </div>
+</body>
+</html>
+

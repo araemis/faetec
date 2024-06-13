@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBE</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Confederação Brasileira de Esgrima</h1>
+    </header>
+    <section class="imagem">
+        <img src="imagens/esgrima.jpg" alt="Confederação Brasileira de Esgrima">
+    </section>
+    <section class="descricao">
+        <h2>Confederação Brasileira de Esgrima</h2>
+        <p>A Confederação Brasileira de Esgrima (CBE) é a entidade responsável pela organização e regulamentação da esgrima no Brasil. A CBE promove competições nacionais, coordena a seleção brasileira e define as regras para o esporte no país.</p>
+    </section>
+    <section class="atletas">
+        <h3>Atletas Convocados</h3>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Foto</th>
+                <th>Posição</th>
+            </tr>
+            <tr>
+                <td>Guilherme Toldo</td>
+                <td><img src="./imagens/atleta1.webp" alt="Guilherme Toldo"></td>
+                <td>Esgrimista</td>
+            </tr>
+            <tr>
+                <td>Mariana Pistoia</td>
+                <td><img src="./imagens/atleta2.jpeg" alt="Mariana Pistoia"></td>
+                <td>Esgrimista</td>
+            </tr>
+            <tr>
+                <td>Nathalie Moellhausen</td>
+                <td><img src="./imagens/atleta3.webp" alt="Nathalie Moellhausen"></td>
+                <td>Esgrimista</td>
+            </tr>
+        </table>
+    </section>
+    <section class="atletas">
+        <h3>Equipe Técnica</h3>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Foto</th>
+                <th>Posição</th>
+            </tr>
+            <tr>
+                <td>Alexandre Alves Teixeira</td>
+                <td><img src="./imagens/alexandre-alves-teixeira.jpg" alt="Alexandre Alves Teixeira"></td>
+                <td>Técnico</td>
+            </tr>
+            <tr>
+                <td>Alkhas Lakerbai</td>
+                <td><img src="./imagens/alkhas-lakerbai.jpg" alt="Alkhas Lakerbai"></td>
+                <td>Técnico</td>
+            </tr>
+            <tr>
+                <td>Fernando Kato</td>
+                <td><img src="./imagens/Fernando_Kato-.jpg" alt="Fernando Kato"></td>
+                <td>Técnico</td>
+            </tr>
+        </table>
+    </section>
+    <section class="cadastro">
+        <a href="cadastro.html">Formulário de Cadastro de Atletas</a>
+    </section>
+</body>
+  <script>
+
+$(document).ready(function() {
+  $('img').hover(function() {
+    $(this).css('transform', 'scale(1.2)');
+  }, function() {
+      $(this).css('transform', 'scale(1)');
+    });
+});
+</script>
+</html>
+

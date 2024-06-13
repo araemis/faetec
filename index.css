@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+  margin-left:30%;
+}
+
+
+header {
+    text-align: left;
+    padding: 20px;
+}
+
+.atletas {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td img {
+    display: block;
+    margin: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
